@@ -1,9 +1,9 @@
 package com.hc.apiproject.service.impl.inner;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.hc.apiproject.common.ErrorCode;
 import com.hc.apiproject.exception.BusinessException;
 import com.hc.apiproject.mapper.InterfaceInfoMapper;
+import com.hc.hcapicommon.common.ErrorCode;
 import com.hc.hcapicommon.model.entity.InterfaceInfo;
 import com.hc.hcapicommon.service.InnerInterfaceInfoService;
 import org.apache.commons.lang3.StringUtils;

@@ -2,12 +2,12 @@ package com.hc.apiproject.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.hc.apiproject.annotation.AuthCheck;
-import com.hc.apiproject.common.BaseResponse;
-import com.hc.apiproject.common.ErrorCode;
-import com.hc.apiproject.common.ResultUtils;
 import com.hc.apiproject.exception.BusinessException;
 import com.hc.apiproject.mapper.UserInterfaceInfoMapper;
 import com.hc.apiproject.service.InterfaceInfoService;
+import com.hc.hcapicommon.common.BaseResponse;
+import com.hc.hcapicommon.common.ErrorCode;
+import com.hc.hcapicommon.common.ResultUtils;
 import com.hc.hcapicommon.model.entity.InterfaceInfo;
 import com.hc.hcapicommon.model.entity.UserInterfaceInfo;
 import com.hc.hcapicommon.model.vo.InterfaceInfoVO;
