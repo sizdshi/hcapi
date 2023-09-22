@@ -6,6 +6,7 @@ import com.qcloud.cos.auth.BasicCOSCredentials;
 import com.qcloud.cos.auth.COSCredentials;
 import com.qcloud.cos.region.Region;
 import lombok.Data;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,21 +22,25 @@ public class CosClientConfig {
     /**
      * accessKey
      */
+    @Value("AKID49A8630yvrcLxT2Z7ZAg7UnInLl1HWhm")
     private String accessKey;
 
     /**
      * secretKey
      */
+    @Value("62sb6vhN3vgQxGSUfv6GSXRAdqpcfdlo")
     private String secretKey;
 
     /**
      * 区域
      */
+    @Value("ap-nanjing")
     private String region;
 
     /**
      * 桶名
      */
+    @Value("picture-1254371329")
     private String bucket;
 
     @Bean

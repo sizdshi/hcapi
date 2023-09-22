@@ -81,6 +81,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
             // 4. 插入数据
             User user = new User();
             user.setUserAccount(userAccount);
+            user.setUserRole("user");
+            user.setUserProfile("游客");
             user.setUserPassword(encryptPassword);
             user.setAccessKey(accessKey);
             user.setSecretKey(secretKey);

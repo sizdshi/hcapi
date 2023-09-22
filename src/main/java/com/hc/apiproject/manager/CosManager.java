@@ -31,6 +31,7 @@ public class CosManager {
     public PutObjectResult putObject(String key, String localFilePath) {
         PutObjectRequest putObjectRequest = new PutObjectRequest(cosClientConfig.getBucket(), key,
                 new File(localFilePath));
+
         return cosClient.putObject(putObjectRequest);
     }
 
@@ -42,8 +43,20 @@ public class CosManager {
      * @return
      */
     public PutObjectResult putObject(String key, File file) {
+
         PutObjectRequest putObjectRequest = new PutObjectRequest(cosClientConfig.getBucket(), key,
                 file);
+
         return cosClient.putObject(putObjectRequest);
+//        try {
+//            String name = file.getName();
+//            String key = directory + UUID.randomUUID() + name.substring(name.lastIndexOf("."));
+//            PutObjectRequest putObjectRequest = new PutObjectRequest(cosClientConfig.getBucket(), key, file);
+//            cosClient.putObject(putObjectRequest);
+//            return "这里填腾讯云对象存储访问的域名" + key;
+//        } catch (CosClientException clientException) {
+//            clientException.printStackTrace();
+//            return "";
+//        }
     }
 }

@@ -12,6 +12,7 @@ import com.hc.hcapicommon.common.ResultUtils;
 import com.hc.hcapicommon.model.dto.user.*;
 import com.hc.hcapicommon.model.entity.User;
 import com.hc.hcapicommon.model.vo.LoginUserVO;
+import com.hc.hcapicommon.model.vo.UserVO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -262,4 +263,13 @@ public class UserController {
         ThrowUtils.throwIf(!result, ErrorCode.OPERATION_ERROR);
         return ResultUtils.success(true);
     }
+
+
+    @GetMapping("/get/vo")
+    public BaseResponse<UserVO> getUserVOById(long id, HttpServletRequest request) {
+        BaseResponse<User> response = getUserById(id, request);
+        User user = response.getData();
+        return ResultUtils.success(userService.getUserVO(user));
+    }
+
 }
