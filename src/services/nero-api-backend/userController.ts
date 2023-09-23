@@ -194,3 +194,15 @@ export async function updateSecretKeyUsingPOST(
     ...(options || {}),
   });
 }
+
+/** updateMyAvatar POST /api/user/update/my/avatar */
+export async function updateMyAvatarUsingPOST(body: string, options?: { [key: string]: any }) {
+    return request<API.BaseResponseboolean>('/api/file/upload/avatar', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        data: body,
+        ...(options || {}),
+    });
+}

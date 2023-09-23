@@ -1,5 +1,5 @@
 import {
-    getUserVOByIdUsingGET,
+    getUserVOByIdUsingGET, updateMyAvatarUsingPOST,
     updateSecretKeyUsingPOST,
     updateUserUsingPOST,
     userLoginUsingPOST,
@@ -19,7 +19,10 @@ import {PageContainer, ProForm, ProFormInstance, ProFormText} from '@ant-design/
 import {Button, Card, Col, Divider, message, Modal, Row, Typography, Upload, UploadFile, UploadProps,} from 'antd';
 import {RcFile, UploadChangeParam} from 'antd/es/upload';
 import React, {useEffect, useRef, useState} from 'react';
-import {uploadFileUsingPOST} from "@/services/nero-api-backend/fileController";
+import {uploadFileUsingPOST} from "@/services/hc-api-backend/fileController";
+import {getLoginUserUsingGET} from "@/services/hc-api-backend/userController";
+import {flushSync} from "react-dom";
+import defaultSettings from "../../../../config/defaultSettings";
 
 const { Paragraph } = Typography;
 
@@ -164,6 +167,50 @@ const Profile: React.FC = () => {
             console.log(e);
         }
     };
+
+    const updateMyAvatar = async (options: any) => {
+        setLoading(true);
+        const { file } = options;
+        try {
+            let formData = new FormData();
+            formData.append("multipartFile", file);
+            //formData.append("biz","team_avatar");
+            // 更换头像
+            const res = await updateMyAvatarUsingPOST(
+                formData as any,
+                {headers: {'Content-Type': 'multipart/form-data',}}
+            );
+            if (res?.data){
+                await getUserInfo(initialState?.loginUser?.id);
+                setLoading(false);
+                const defaultSuccessMessage = '修改成功';
+                message.success(defaultSuccessMessage);
+            }
+        } catch (error) {
+            const defaultFailureMessage = '修改失败，请重试！';
+            console.log(error);
+            message.error(defaultFailureMessage);
+        }
+    }
+
+    /**
+     * 查询当前用户信息
+     */
+    // const queryCurrentUser = async () => {
+    //     try {
+    //         const res = await getLoginUserUsingGET();
+    //         flushSync(() => {
+    //             setInitialState({
+    //                 loginUser: res.data,
+    //                 settings: defaultSettings as Partial<LayoutSettings>,
+    //             });
+    //         })
+    //     } catch (error) {
+    //         const defaultFailureMessage = '系统错误';
+    //         console.log(error);
+    //         message.error(defaultFailureMessage);
+    //     }
+    // }
     return (
         <PageContainer>
             <Row gutter={24}>
@@ -172,11 +219,21 @@ const Profile: React.FC = () => {
                         <Row>
                             <Col style={avatarStyle}>
                                 <Upload
-                                    name="file"
+                                    // name="file"
+                                    // listType="picture-circle"
+                                    // showUploadList={false}
+                                    // action="http://localhost:8101/api/file/upload"
+                                    //
+                                    // beforeUpload={beforeUpload}
+                                    // onChange={handleChange}
+                                    name="avatar"
                                     listType="picture-circle"
-                                    showUploadList={false}
-                                    action="http://localhost:8101/api/file/upload"
+                                    className="avatar-uploader"
+                                    showUploadList={true}
                                     beforeUpload={beforeUpload}
+                                    maxCount={1}
+                                    fileList={[]}
+                                    customRequest={updateMyAvatar}
                                     onChange={handleChange}
                                 >
                                     {imageUrl ? (
