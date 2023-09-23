@@ -5,42 +5,39 @@ import com.qcloud.cos.ClientConfig;
 import com.qcloud.cos.auth.BasicCOSCredentials;
 import com.qcloud.cos.auth.COSCredentials;
 import com.qcloud.cos.region.Region;
-import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 /**
  * 腾讯云对象存储客户端
  */
-@Configuration
-@ConfigurationProperties(prefix = "cos.client")
-@Data
+//@Configuration
+//@ConfigurationProperties(prefix = "cos.client")
+//@Data
 public class CosClientConfig {
 
     /**
      * accessKey
      */
-    @Value("AKID49A8630yvrcLxT2Z7ZAg7UnInLl1HWhm")
+    @Value("${spring.tencent.SecretId}")
     private String accessKey;
 
     /**
      * secretKey
      */
-    @Value("62sb6vhN3vgQxGSUfv6GSXRAdqpcfdlo")
+    @Value("${spring.tencent.SecretKey}")
     private String secretKey;
 
     /**
      * 区域
      */
-    @Value("ap-nanjing")
+    @Value("${spring.tencent.region}")
     private String region;
 
     /**
      * 桶名
      */
-    @Value("picture-1254371329")
+    @Value("${spring.tencent.bucket}")
     private String bucket;
 
     @Bean
