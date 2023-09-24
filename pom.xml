@@ -11,15 +11,21 @@
         <version>2.7.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.yupi</groupId>
+
+    <groupId>com.hc</groupId>
     <artifactId>hcapi_backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>hcapi_backend</name>
+
+    <modules>
+        <module>hcapi-backend-main</module>
+        <module>hcapi-interface</module>
+
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
-
-
     </properties>
 
     <dependencies>
@@ -160,21 +166,21 @@
 
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <!--    <build>-->
+    <!--        <plugins>-->
+    <!--            <plugin>-->
+    <!--                <groupId>org.springframework.boot</groupId>-->
+    <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+    <!--                <configuration>-->
+    <!--                    <excludes>-->
+    <!--                        <exclude>-->
+    <!--                            <groupId>org.projectlombok</groupId>-->
+    <!--                            <artifactId>lombok</artifactId>-->
+    <!--                        </exclude>-->
+    <!--                    </excludes>-->
+    <!--                </configuration>-->
+    <!--            </plugin>-->
+    <!--        </plugins>-->
+    <!--    </build>-->
 
 </project>
