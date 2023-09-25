@@ -10,21 +10,16 @@
         <relativePath/>
     </parent>
 
-    <artifactId>hcapi-interface</artifactId>
+    <artifactId>hcapi-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hcapi-interface</name>
-    <description>hcapi-interface</description>
+    <name>hcapi-common</name>
+    <description>hcapi-common</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
     <dependencies>
-
-        <dependency>
-            <groupId>com.hc</groupId>
-            <artifactId>hcapi-common</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -33,12 +28,10 @@
             <groupId>icu.qimuu</groupId>
             <artifactId>EasyWeb</artifactId>
         </dependency>
-
         <dependency>
             <groupId>com.hc</groupId>
             <artifactId>hcapi-client-sdk</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -67,8 +60,17 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-annotation</artifactId>
+            <version>3.5.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
