@@ -11,18 +11,19 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+
   # session 配置
   session:
     # todo 取消注释开启分布式 session（须先配置 Redis）
-    # store-type: redis
-    # 30 天过期
-    timeout: 2592000
+    store-type: redis
+    #  天过期
+    timeout: 86400
   # 数据库配置
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://123.207.199.84:3306/hcapi
-    username: root
+    username: hc
     password: Shc@123
     hikari:
       max-lifetime: 60000
@@ -43,12 +44,12 @@ spring:
     bucket: picture-1254371329
   # Redis 配置
   # todo 需替换配置，然后取消注释
-  #  redis:
-  #    database: 1
-  #    host: localhost
-  #    port: 6379
-  #    timeout: 5000
-  #    password: 123456
+  redis:
+    database: 1
+    host: 123.207.199.84
+    port: 6379
+    timeout: 5000
+    password: Shc@123
   # Elasticsearch 配置
   # todo 需替换配置，然后取消注释
   #  elasticsearch:
@@ -60,6 +61,16 @@ spring:
     multipart:
       # 大小限制
       max-file-size: 10MB
+#  mail:
+#    host: smtp.qq.com
+#    username: 2483482026@qq.com
+#    password: xxxxxxxxxxxxxxxx
+#    emailFrom: 2483482026@qq.com
+#    properties:
+#      mail:
+#        smtp:
+#          ssl:
+#            enable: true
 server:
   address: 0.0.0.0
   port: 8101
@@ -121,5 +132,5 @@ dubbo:
     port: -1
   registry:
     id: nacos-registry
-    address: nacos://120.79.31.178:8848
+    address: nacos://123.207.199.84:8848
 

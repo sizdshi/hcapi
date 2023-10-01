@@ -7,7 +7,7 @@
         <groupId>com.hc</groupId>
         <artifactId>hcapi_backend</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <version>0.0.1-SNAPSHOT</version>

@@ -7,7 +7,7 @@
         <groupId>com.hc</groupId>
         <artifactId>hcapi_backend</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>hcapi-backend-main</artifactId>
@@ -123,6 +123,10 @@
         <dependency>
             <groupId>com.sun.mail</groupId>
             <artifactId>jakarta.mail</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hc</groupId>
+            <artifactId>hcapi-common</artifactId>
         </dependency>
     </dependencies>
 

@@ -28,4 +28,13 @@ public interface UserConstant {
     String BAN_ROLE = "ban";
 
     // endregion
+
+    /**
+     * 盐值，混淆密码
+     */
+    String SALT = "hcshi";
+    /**
+     * ak/sk 混淆
+     */
+    String CREDENTIALS = "accessKey_secretKey";
 }
