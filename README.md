@@ -1,70 +1,74 @@
 <p align="center">
-    <img src=https://img.qimuu.icu/typory/logo.gif width=188/>
+    <img src=http://img.tctech.asia/doc/logo.gif width=188/>
 </p>
 <h1 align="center">API 元数据中心</h1>
 <p align="center"><strong>API 元数据中心是一个为用户和开发者提供全面API接口调用服务的平台 🛠</strong></p>
 <div align="center">
-<a target="_blank" href="https://github.com/qimu666/qi-api">
-    <img alt="" src="https://github.com/qimu666/qi-api/badge/star.svg?theme=gvp"/>
+<a target="_blank" href="https://github.com/sizdshi/hcapi">
+    <img alt="" src="https://github.com/sizdshi/hcapi/badge/star.svg?theme=gvp"/>
 </a>
-<a target="_blank" href="https://github.com/qimu666/qi-api">
-    <img alt="" src="https://img.shields.io/github/stars/qimu666/qi-api.svg?style=social&label=Stars"/>
+<a target="_blank" href="https://github.com/sizdshi/hcapi">
+    <img alt="" src="https://img.shields.io/github/stars/sizdshi/hcapi.svg?style=social&label=Stars"/>
 </a>
     <img alt="Maven" src="https://raster.shields.io/badge/Maven-3.8.1-red.svg"/>
 <a target="_blank" href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">
         <img alt="" src="https://img.shields.io/badge/JDK-1.8+-green.svg"/>
 </a>
     <img alt="SpringBoot" src="https://raster.shields.io/badge/SpringBoot-2.7+-green.svg"/>
-<a href="https://github.com/qimu666/qi-api" target="_blank">
-    <img src='https://img.shields.io/github/forks/qimu666/qi-api' alt='GitHub forks' class="no-zoom">
+<a href="https://github.com/sizdshi/hcapi" target="_blank">
+    <img src='https://img.shields.io/github/forks/sizdshi/hcapi' alt='GitHub forks' class="no-zoom">
 </a>
-<a href="https://github.com/qimu666/qi-api" target="_blank"><img src='https://img.shields.io/github/stars/qimu666/qi-api' alt='GitHub stars' class="no-zoom">
+<a href="https://github.com/sizdshi/hcapi" target="_blank"><img src='https://img.shields.io/github/stars/sizdshi/hcapi' alt='GitHub stars' class="no-zoom">
 </a>
 </div>
 
 ## 项目介绍 🙋
 
+**😀 作为用户您可以通过注册登录账户，获取接口调用权限，并根据自己的需求浏览和选择适合的接口。您可以在线进行接口调试，快速验证接口的功能和效果。
+**
 
+**💻 作为开发者 我们提供了[客户端SDK: HcAPI-SDK](https://github.com/sizdshi/hcapi-sdk)，
+通过[开发者凭证](https://api.hcshi.top/account/center)即可将轻松集成接口到您的项目中，实现更高效的开发和调用。**
 
-**😀 作为用户您可以通过注册登录账户，获取接口调用权限，并根据自己的需求浏览和选择适合的接口。您可以在线进行接口调试，快速验证接口的功能和效果。** 
-
-**💻 作为开发者 我们提供了[客户端SDK: Qi-API-SDK](https://github.com/qimu666/qi-api-sdk)， 通过[开发者凭证](https://api.qimuu.icu/account/center)即可将轻松集成接口到您的项目中，实现更高效的开发和调用。** 
-
-**🤝 您可以将自己的接口接入到Qi-API 接口开放平台平台上，并发布给其他用户使用。 您可以管理和各个接口，以便更好地分析和优化接口性能。** 
+**🤝 您可以将自己的接口接入到HcAPI 接口开放平台平台上，并发布给其他用户使用。 您可以管理和各个接口，以便更好地分析和优化接口性能。
+**
 
 **👌 我们还提供了[开发者在线文档](https://doc.qimuu.icu/)和技术支持，帮助您快速接入和发布接口。**
 
- **🏁 无论您是用户还是开发者，Qi-API 接口开放平台都致力于提供稳定、安全、高效的接口调用服务，帮助您实现更快速、便捷的开发和调用体验。**
+**🏁 无论您是用户还是开发者，HcAPI 接口开放平台都致力于提供稳定、安全、高效的接口调用服务，帮助您实现更快速、便捷的开发和调用体验。
+**
 
 ## 网站导航 🧭
 
-- [**Qi-API 后端 🏘️**](https://github.com/qimu666/qi-api)
-- [**Qi-API 前端 🏘**️](https://github.com/qimu666/qi-api-frontend)
+- [**HcAPI 后端 🏘️**](https://github.com/sizdshi/hcapi)
+- [**HcAPI 前端 🏘**️](https://github.com/sizdshi/hcapi-frontend)
 
--  **[Qi-API-SDK](https://github.com/qimu666/qi-api-sdk)** 🛠
+- **[HcAPI-SDK](https://github.com/sizdshi/hcapi-sdk)** 🛠
 
--  **[Qi-API 接口开放平台 🔗](https://api.qimuu.icu/)**
+- **[HcAPI 接口开放平台 🔗](https://api.hcshi.top/)**
 
--  **[Qi-API-DOC 开发者文档 📖](https://doc.qimuu.icu/)**
--  **[Qi-API-SDK-demo ✔️](https://github.com/qimu666/qi-api-sdk-demo/blob/master/src/main/java/icu/qimuu/qiapisdkdemo/controller/InvokeController.java)**
+- **[HcAPI-DOC 开发者文档 📖](https://doc.qimuu.icu/)**
+- *
+  *[HcAPI-SDK-demo ✔️](https://github.com/sizdshi/hcapi-sdk-demo/blob/master/src/main/java/icu/qimuu/qiapisdkdemo/controller/InvokeController.java)
+  **
 
 
 ## 目录结构 📑
 
+| 目录                                                                                                                                                   | 描述          |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| **🏘️ [hcapi-backend](./hcapi-backend)**                                                                                                             | HcAPI后端服务模块 |
+| **🏘️ [hcapi-common](./hcapi-common)**                                                                                                               | 公共服务模块      |
+| **🕸️ [hcapi-gateway](./hcapi-gateway)**                                                                                                             | 网关模块        |
+| **🔗 [hcapi-interface](./hcapi-interface)**                                                                                                          | 接口模块        |
+| **🛠 [hcapi-sdk](https://github.com/sizdshi/hcapi-sdk)**                                                                                             | 开发者调用sdk    |
+| **📘 [hcapi-doc](https://doc.qimuu.icu/)**                                                                                                           | 接口在线文档      |
+| **✔️ [HcAPI-SDK-Demo](https://github.com/sizdshi/hcapi-sdk-demo/blob/master/src/main/java/icu/qimuu/qiapisdkdemo/controller/InvokeController.java)** | sdk调用Demo   |
 
-| 目录                                                     | 描述               |
-|--------------------------------------------------------| ------------------ |
-| **🏘️ [qi-api-backend](./qi-api-backend)**             | Qi-API后端服务模块 |
-| **🏘️ [qi-api-common](./qi-api-common)**               | 公共服务模块       |
-| **🕸️ [qi-api-gateway](./qi-api-gateway)**             | 网关模块           |
-| **🔗 [qi-api-interface](./qi-api-interface)**          | 接口模块           |
-| **🛠 [qi-qpi-sdk](https://github.com/qimu666/qi-api-sdk)** | 开发者调用sdk      |
-| **📘 [qi-api-doc](https://doc.qimuu.icu/)**            | 接口在线文档       |
-| **✔️ [Qi-API-SDK-Demo](https://github.com/qimu666/qi-api-sdk-demo/blob/master/src/main/java/icu/qimuu/qiapisdkdemo/controller/InvokeController.java)** | sdk调用Demo |
+## 项目结构 🗺️
+![API元数据中心](http://img.tctech.asia/doc/structure.jpg)
 
 ## 项目流程 🗺️
-
-![API元数据中心](http://img.tctech.asia/doc/structure.jpg)
 ![API元数据中心](http://img.tctech.asia/doc/yuque_diagram.jpg)
 
 ## 快速启动 🚀
@@ -134,103 +138,103 @@ yarn build or npm run build
 
 `坤币`即积分，用于平台接口调用。
 
-|                          **功能**                           | 游客 | **普通用户** | **管理员** |
-| ----------------------------------------------------- |--------------|-----|-----|
-| [**Qi-API-SDK**](https://github.com/qimu666/qi-api-sdk)使用 | ✅ | ✅ |     ✅      |
-|        **[开发者API在线文档](http://doc.qimuu.icu)**        | ✅ | ✅ |     ✅      |
-|                     邀请好友注册得坤币                      | ❌ | ✅ |     ✅      |
-|                    切换主题、深色、暗色                     | ✅ | ✅ | ✅ |
-|                       微信支付宝付款                        | ❌ | ✅ | ✅ |
-|                        在线调试接口                         | ❌ | ✅ | ✅ |
-|                       每日签到得坤币                        | ❌ | ✅ | ✅ |
-|                 接口大厅搜索接口、浏览接口                  | ✅ | ❌ | ✅ |
-|                     邮箱验证码登录注册                      | ✅ | ✅ | ✅ |
-|                          钱包充值                           | ❌ | ❌ | ✅ |
-|                     支付成功邮箱通知(需要绑定邮箱)                     | ❌ | ✅ | ✅ |
-|                          更新头像                           | ❌ | ✅ | ✅ |
-|                    绑定、换绑、解绑邮箱                     | ❌ | ✅ | ✅ |
-|                          取消订单、删除订单                          | ❌ | ✅ | ✅ |
-|                    商品管理、上线、下架                     | ❌ | ❌ |✅|
-|                    用户管理、封号解封等                     | ❌ | ❌ | ✅ |
-|                接口管理、接口发布审核、下架                 | ❌ | ❌ | ✅ |
-|                            退款                             | ❌ | ❌| ❌ |
+| **功能**                                                  | 游客 | **普通用户** | **管理员** |
+|---------------------------------------------------------|----|----------|---------|
+| [**HcAPI-SDK**](https://github.com/sizdshi/hcapi-sdk)使用 | ✅  | ✅        | ✅       |
+| **[开发者API在线文档](http://doc.qimuu.icu)**                  | ✅  | ✅        | ✅       |
+| 邀请好友注册得坤币                                               | ❌  | ✅        | ✅       |
+| 切换主题、深色、暗色                                              | ✅  | ✅        | ✅       |
+| 微信支付宝付款                                                 | ❌  | ✅        | ✅       |
+| 在线调试接口                                                  | ❌  | ✅        | ✅       |
+| 每日签到得金币                                                 | ❌  | ✅        | ✅       |
+| 接口大厅搜索接口、浏览接口                                           | ✅  | ❌        | ✅       |
+| 邮箱验证码登录注册                                               | ✅  | ✅        | ✅       |
+| 钱包充值                                                    | ❌  | ❌        | ✅       |
+| 支付成功邮箱通知(需要绑定邮箱)                                        | ❌  | ✅        | ✅       |
+| 更新头像                                                    | ❌  | ✅        | ✅       |
+| 绑定、换绑、解绑邮箱                                              | ❌  | ✅        | ✅       |
+| 取消订单、删除订单                                               | ❌  | ✅        | ✅       |
+| 商品管理、上线、下架                                              | ❌  | ❌        | ✅       |
+| 用户管理、封号解封等                                              | ❌  | ❌        | ✅       |
+| 接口管理、接口发布审核、下架                                          | ❌  | ❌        | ✅       |
+| 退款                                                      | ❌  | ❌        | ❌       |
 
 ## 功能展示 ✨
 
 ### 首页
 
-![index](https://img.qimuu.icu/typory/index.png)
+![index](https://img.tctech.asia/typory/index.png)
 
 ### 接口广场
 
-![interfaceSquare](https://img.qimuu.icu/typory/interfaceSquare.png)
+![interfaceSquare](https://img.tctech.asia/typory/interfaceSquare.png)
 
 ### 开发者在线文档
 
-![api](https://img.qimuu.icu/typory/api.png)
+![api](https://img.tctech.asia/typory/api.png)
 
-![api2](https://img.qimuu.icu/typory/api2.png)
+![api2](https://img.tctech.asia/typory/api2.png)
 
 ### 接口描述
 
 #### **在线API**
 
-![interfaceinfo-api](https://img.qimuu.icu/typory/interfaceinfo-api.png)
+![interfaceinfo-api](https://img.tctech.asia/typory/interfaceinfo-api.png)
 
-#### 在线调试工具![interfaceinfo-tools](https://img.qimuu.icu/typory/interfaceinfo-tools.png)
+#### 在线调试工具![interfaceinfo-tools](https://img.tctech.asia/typory/interfaceinfo-tools.png)
 
-#### **错误码参考**![interfaceinfo-errorcode](https://img.qimuu.icu/typory/interfaceinfo-errorcode.png)
+#### **错误码参考**![interfaceinfo-errorcode](https://img.tctech.asia/typory/interfaceinfo-errorcode.png)
 
-#### **接口调用代码示例**![interfaceinfo-sampleCode](https://img.qimuu.icu/typory/interfaceinfo-sampleCode.png)
+#### **接口调用代码示例**![interfaceinfo-sampleCode](https://img.tctech.asia/typory/interfaceinfo-sampleCode.png)
 
 ### 管理页
 
 #### 用户管理
 
-![admin-userManagement](https://img.qimuu.icu/typory/admin-userManagement.png)
+![admin-userManagement](https://img.tctech.asia/typory/admin-userManagement.png)
 
-#### 商品管理![admin-productManagement](https://img.qimuu.icu/typory/admin-productManagement.png)
+#### 商品管理![admin-productManagement](https://img.tctech.asia/typory/admin-productManagement.png)
 
-#### 接口管理![admin-interfaceManagement](https://img.qimuu.icu/typory/admin-interfaceManagement.png)
+#### 接口管理![admin-interfaceManagement](https://img.tctech.asia/typory/admin-interfaceManagement.png)
 
-#### 动态更新请求响应参数![dynamicRequestParameters](https://img.qimuu.icu/typory/dynamicRequestParameters.png)
+#### 动态更新请求响应参数![dynamicRequestParameters](https://img.tctech.asia/typory/dynamicRequestParameters.png)
 
 
 ### 积分商城
 
-![pointPurchase](https://img.qimuu.icu/typory/pointPurchase.png)
+![pointPurchase](https://img.tctech.asia/typory/pointPurchase.png)
 
-### 订单支付![pay](https://img.qimuu.icu/typory/pay.png)
+### 订单支付![pay](https://img.tctech.asia/typory/pay.png)
 
 ### 个人信息
 
 #### 信息展示
 
-![userinfo](https://img.qimuu.icu/typory/userinfo.png)
+![userinfo](https://img.tctech.asia/typory/userinfo.png)
 
 #### 每日签到
 
-##### 签到成功![successfullySignedIn](https://img.qimuu.icu/typory/successfullySignedIn.png)
+##### 签到成功![successfullySignedIn](https://img.tctech.asia/typory/successfullySignedIn.png)
 
-##### 签到失败![errorfullySignedIn](https://img.qimuu.icu/typory/errorfullySignedIn.png)
+##### 签到失败![errorfullySignedIn](https://img.tctech.asia/typory/errorfullySignedIn.png)
 
 ### 好友邀请
 
-#### **发送邀请**![Invitefriends](https://img.qimuu.icu/typory/Invitefriends.png)
+#### **发送邀请**![Invitefriends](https://img.tctech.asia/typory/Invitefriends.png)
 
-#### **接收邀请**![registerThroughInvitationCode](https://img.qimuu.icu/typory/registerThroughInvitationCode.png)
+#### **接收邀请**![registerThroughInvitationCode](https://img.tctech.asia/typory/registerThroughInvitationCode.png)
 
-### 登录/注册![login](https://img.qimuu.icu/typory/login.png)
+### 登录/注册![login](https://img.tctech.asia/typory/login.png)
 
-![register](https://img.qimuu.icu/typory/register.png)
+![register](https://img.tctech.asia/typory/register.png)
 
 ### 订单管理
 
-- **我的订单**![orderinfo](https://img.qimuu.icu/typory/orderinfo.png)
+- **我的订单**![orderinfo](https://img.tctech.asia/typory/orderinfo.png)
 
-- **详细订单**![orderDetails](https://img.qimuu.icu/typory/orderDetails.png)
+- **详细订单**![orderDetails](https://img.tctech.asia/typory/orderDetails.png)
 ### 主题切换
 
-#### 深色主题![darkTheme](https://img.qimuu.icu/typory/darkTheme.png)
+#### 深色主题![darkTheme](https://img.tctech.asia/typory/darkTheme.png)
 
-#### 浅色主题![index](https://img.qimuu.icu/typory/index.png)
+#### 浅色主题![index](https://img.tctech.asia/typory/index.png)
