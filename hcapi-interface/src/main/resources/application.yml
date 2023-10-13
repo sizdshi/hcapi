@@ -5,5 +5,5 @@ server:
 
 hcapi:
   client:
-    access-key: hc
-    secret-key: 1234abcd
+    access-key:
+    secret-key:

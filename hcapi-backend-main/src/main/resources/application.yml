@@ -22,9 +22,9 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://123.207.199.84:3306/hcapi
-    username: hc
-    password: Shc@123
+    url: jdbc:mysql://:3306/
+    username:
+    password:
     hikari:
       max-lifetime: 60000
   mybatis-plus:
@@ -38,18 +38,18 @@ spring:
         logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
 
   tencent:
-    SecretId: AKIDGJ7sQjquxtfBbbQ2d5NXecWGvWwWktwO
-    SecretKey: PhonZbSGvKUP4VaWPHqS4WuFOK2X0KPG
+    SecretId:
+    SecretKey:
     region: ap-nanjing
-    bucket: picture-1254371329
+    bucket:
   # Redis 配置
   # todo 需替换配置，然后取消注释
   redis:
     database: 1
-    host: 123.207.199.84
+    host:
     port: 6379
     timeout: 5000
-    password: Shc@123
+    password:
   # Elasticsearch 配置
   # todo 需替换配置，然后取消注释
   #  elasticsearch:
@@ -121,8 +121,8 @@ cos:
 
 hcapi:
   client:
-    access-key: hc
-    secret-key: 1234abcd
+    access-key:
+    secret-key:
 
 dubbo:
   application:
@@ -132,5 +132,5 @@ dubbo:
     port: -1
   registry:
     id: nacos-registry
-    address: nacos://123.207.199.84:8848
+    address: nacos://
 
