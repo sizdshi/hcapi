@@ -163,78 +163,78 @@ yarn build or npm run build
 
 ### 首页
 
-![index](https://img.tctech.asia/typory/index.png)
+![index](https://img.tctech.asia/doc/index.png)
 
 ### 接口广场
 
-![interfaceSquare](https://img.tctech.asia/typory/interfaceSquare.png)
+![interfaceSquare](https://img.tctech.asia/doc/interfaceSquare.png)
 
 ### 开发者在线文档
 
-![api](https://img.tctech.asia/typory/api.png)
+![api](https://img.tctech.asia/doc/api.png)
 
-![api2](https://img.tctech.asia/typory/api2.png)
+![api2](https://img.tctech.asia/doc/api2.png)
 
 ### 接口描述
 
 #### **在线API**
 
-![interfaceinfo-api](https://img.tctech.asia/typory/interfaceinfo-api.png)
+![interfaceinfo-api](https://img.tctech.asia/doc/interfaceinfo-api.png)
 
-#### 在线调试工具![interfaceinfo-tools](https://img.tctech.asia/typory/interfaceinfo-tools.png)
+#### 在线调试工具![interfaceinfo-tools](https://img.tctech.asia/doc/interfaceinfo-tools.png)
 
-#### **错误码参考**![interfaceinfo-errorcode](https://img.tctech.asia/typory/interfaceinfo-errorcode.png)
+#### **错误码参考**![interfaceinfo-errorcode](https://img.tctech.asia/doc/interfaceinfo-errorcode.png)
 
-#### **接口调用代码示例**![interfaceinfo-sampleCode](https://img.tctech.asia/typory/interfaceinfo-sampleCode.png)
+#### **接口调用代码示例**![interfaceinfo-sampleCode](https://img.tctech.asia/doc/interfaceinfo-sampleCode.png)
 
 ### 管理页
 
 #### 用户管理
 
-![admin-userManagement](https://img.tctech.asia/typory/admin-userManagement.png)
+![admin-userManagement](https://img.tctech.asia/doc/admin-userManagement.png)
 
-#### 商品管理![admin-productManagement](https://img.tctech.asia/typory/admin-productManagement.png)
+#### 商品管理![admin-productManagement](https://img.tctech.asia/doc/admin-productManagement.png)
 
-#### 接口管理![admin-interfaceManagement](https://img.tctech.asia/typory/admin-interfaceManagement.png)
+#### 接口管理![admin-interfaceManagement](https://img.tctech.asia/doc/admin-interfaceManagement.png)
 
-#### 动态更新请求响应参数![dynamicRequestParameters](https://img.tctech.asia/typory/dynamicRequestParameters.png)
+#### 动态更新请求响应参数![dynamicRequestParameters](https://img.tctech.asia/doc/dynamicRequestParameters.png)
 
 
 ### 积分商城
 
-![pointPurchase](https://img.tctech.asia/typory/pointPurchase.png)
+![pointPurchase](https://img.tctech.asia/doc/pointPurchase.png)
 
-### 订单支付![pay](https://img.tctech.asia/typory/pay.png)
+### 订单支付![pay](https://img.tctech.asia/doc/pay.png)
 
 ### 个人信息
 
 #### 信息展示
 
-![userinfo](https://img.tctech.asia/typory/userinfo.png)
+![userinfo](https://img.tctech.asia/doc/userinfo.png)
 
 #### 每日签到
 
-##### 签到成功![successfullySignedIn](https://img.tctech.asia/typory/successfullySignedIn.png)
+##### 签到成功![successfullySignedIn](https://img.tctech.asia/doc/successfullySignedIn.png)
 
-##### 签到失败![errorfullySignedIn](https://img.tctech.asia/typory/errorfullySignedIn.png)
+##### 签到失败![errorfullySignedIn](https://img.tctech.asia/doc/errorfullySignedIn.png)
 
 ### 好友邀请
 
-#### **发送邀请**![Invitefriends](https://img.tctech.asia/typory/Invitefriends.png)
+#### **发送邀请**![Invitefriends](https://img.tctech.asia/doc/Invitefriends.png)
 
-#### **接收邀请**![registerThroughInvitationCode](https://img.tctech.asia/typory/registerThroughInvitationCode.png)
+#### **接收邀请**![registerThroughInvitationCode](https://img.tctech.asia/doc/registerThroughInvitationCode.png)
 
-### 登录/注册![login](https://img.tctech.asia/typory/login.png)
+### 登录/注册![login](https://img.tctech.asia/doc/login.png)
 
-![register](https://img.tctech.asia/typory/register.png)
+![register](https://img.tctech.asia/doc/register.png)
 
 ### 订单管理
 
-- **我的订单**![orderinfo](https://img.tctech.asia/typory/orderinfo.png)
+- **我的订单**![orderinfo](https://img.tctech.asia/doc/orderinfo.png)
 
-- **详细订单**![orderDetails](https://img.tctech.asia/typory/orderDetails.png)
+- **详细订单**![orderDetails](https://img.tctech.asia/doc/orderDetails.png)
 ### 主题切换
 
-#### 深色主题![darkTheme](https://img.tctech.asia/typory/darkTheme.png)
+#### 深色主题![darkTheme](https://img.tctech.asia/doc/darkTheme.png)
 
-#### 浅色主题![index](https://img.tctech.asia/typory/index.png)
+#### 浅色主题![index](https://img.tctech.asia/doc/index.png)
