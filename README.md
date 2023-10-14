@@ -33,7 +33,7 @@
 **🤝 您可以将自己的接口接入到HcAPI 接口开放平台平台上，并发布给其他用户使用。 您可以管理和各个接口，以便更好地分析和优化接口性能。
 **
 
-**👌 我们还提供了[开发者在线文档](https://doc.qimuu.icu/)和技术支持，帮助您快速接入和发布接口。**
+**👌 我们还提供了[开发者在线文档]()和技术支持，帮助您快速接入和发布接口。**
 
 **🏁 无论您是用户还是开发者，HcAPI 接口开放平台都致力于提供稳定、安全、高效的接口调用服务，帮助您实现更快速、便捷的开发和调用体验。
 **
@@ -47,10 +47,8 @@
 
 - **[HcAPI 接口开放平台 🔗](https://api.hcshi.top/)**
 
-- **[HcAPI-DOC 开发者文档 📖](https://doc.qimuu.icu/)**
-- *
-  *[HcAPI-SDK-demo ✔️](https://github.com/sizdshi/hcapi-sdk-demo/blob/master/src/main/java/icu/qimuu/qiapisdkdemo/controller/InvokeController.java)
-  **
+- **[HcAPI-DOC 开发者文档 📖]()**
+- **[HcAPI-SDK-demo ✔️]()**
 
 
 ## 目录结构 📑
@@ -169,11 +167,6 @@ yarn build or npm run build
 
 ![interfaceSquare](https://img.tctech.asia/doc/interfaceSquare.png)
 
-### 开发者在线文档
-
-![api](https://img.tctech.asia/doc/api.png)
-
-![api2](https://img.tctech.asia/doc/api2.png)
 
 ### 接口描述
 
